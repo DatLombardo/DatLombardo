@@ -7,9 +7,11 @@ Vitae
 #vitaeMaterial {
   text-align: left;
   transform: translate(0%, 0%);
+  width: inherit;
 }
 #vitaeCard {
   text-align: left;
+  width: inherit;
   transform: translate(5%, 0%);
 }
 #vitaeTitle {
@@ -22,6 +24,12 @@ Vitae
 
 #vitaeIndent {
   padding-left: 4em
+}
+
+.card-text{
+  display:block;
+  width: inherit;
+  word-wrap: break-word;
 }
 
 /*
