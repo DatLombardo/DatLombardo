@@ -1,9 +1,21 @@
-nav{
-overflow: auto;
+#aboutTabs {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  text-align: center;
 }
-.html{
-  background-color:red;
+
+#youngMe {
+  border-radius: 50%;
+  padding-top: 3vh;
+  padding-bottom: 5vh;
+  width: 15%;
 }
+
+#halfPic {
+  width: 100%;
+  height:100%;
+}
+
 
 /*
 Main
@@ -18,40 +30,6 @@ Main
 
 .nav-item{
   font-size: 16pt;
-}
-.jumbotron {
-    left: 50%;
-    position: absolute;
-    top: 35%;
-    transform: translate(-50%, -55%);
-    text-align: center;
-    width: auto;
-    height: auto;
-    background: rgba(0, 0, 0, 0.3);
-    background-clip:padding-box;
-    padding:25px;
-    color: #fff;
-}
-.blockquote {
-    left: 50%;
-    position: absolute;
-    top: 95%;
-    transform: translate(-50%, -55%);
-    text-align: center;
-    width: 35%;
-    height: auto;
-    color: #fff;
-    font-size: 20pt;
-    background: rgba(0, 0, 0, 0.3);
-}
-
-#videoBG
- {
-    position:fixed;
-    z-index: -1;
-    height: 100vh;
-    width: 100%;
-    object-fit: cover;
 }
 
 ul.social-network {
