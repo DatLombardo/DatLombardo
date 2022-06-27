@@ -16,6 +16,13 @@
   height:100%;
 }
 
+#circlePic {
+  border-radius: 50%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width: 35%;
+}
+
 
 /*
 Main
