@@ -3,9 +3,6 @@ nav {
   color: #fff;
 }
 
-/*
-Main
- */
 .navHead {
   height:10%;
 }
@@ -26,7 +23,6 @@ Main
     width: 100%;
     object-fit: cover;
 }
-
 
 body {
   margin: 0;

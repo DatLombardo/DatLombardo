@@ -9,6 +9,7 @@ overflow: auto;
   font-size: 20px;
 }
 #thesisCard {
+  max-width: 90%;
   text-align: left;
   width: inherit;
   transform: translate(5%, 0%);
