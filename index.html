@@ -3,15 +3,14 @@
 <head>
   <title>Redirecting...</title>
   <script>
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      window.location.href = "vitae.html";
+    if (/Mobi|Android/i.test(navigator.userAgent)) {
+      window.location.href = "vitae.html"; // Redirect mobile users
     } else {
-      window.location.href = "landing.html"; // Redirect non-mobile users to a default page
+      window.location.href = "landing.html"; // Redirect non-mobile users
     }
   </script>
 </head>
 <body>
-  <!-- You can add a message or loading animation for users being redirected -->
   <p>Redirecting based on device...</p>
 </body>
 </html>
