@@ -8,12 +8,14 @@ overflow: auto;
   width: inherit;
   font-size: 20px;
 }
+
 #thesisCard {
   max-width: 90%;
   text-align: left;
   width: inherit;
   transform: translate(5%, 0%);
 }
+
 #thesisTitle {
   font-size: 24pt;
 }
