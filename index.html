@@ -49,7 +49,11 @@
       </ul>
     </div>
   </nav>
-
+  <script>
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      window.location.href = "vitae.html";
+    }
+  </script>
   <div class="container">
     <video id="videoBG" poster="assets/backgroundSplash.png" autoplay muted loop>
       <source src="assets/backgroundSplash.mp4" type="video/mp4">
