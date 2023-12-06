@@ -1,58 +1,11 @@
-nav{
-overflow: auto;
-}
-.html{
-  background-color:red;
-}
-
-/*
-Main
- */
-.navHead {
-  height:10%;
+.page-footer {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
 }
 
-.navbar-brand{
-  font-size: 30pt;
-}
-
-.nav-item{
-  font-size: 16pt;
-}
-.jumbotron {
-    left: 50%;
-    position: absolute;
-    top: 55%;
-    transform: translate(-50%, -55%);
-    text-align: center;
-    width: auto;
-    height: auto;
-    background: rgba(0, 0, 0, 0.3);
-    background-clip:padding-box;
-    padding:25px;
-    color: #fff;
-}
-.blockquote {
-    left: 50%;
-    position: absolute;
-    top: 95%;
-    transform: translate(-50%, -55%);
-    text-align: center;
-    width: 35%;
-    height: auto;
-    color: #fff;
-    font-size: 20pt;
-    background: rgba(0, 0, 0, 0.3);
-}
-
-#videoBG
- {
-    position:fixed;
-    z-index: -1;
-    height: 100vh;
-    width: 100%;
-    object-fit: cover;
-}
 
 ul.social-network {
 	list-style: none;

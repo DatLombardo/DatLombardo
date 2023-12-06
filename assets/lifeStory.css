@@ -1,0 +1,48 @@
+#aboutTabs {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  text-align: center;
+}
+
+#youngMe {
+  border-radius: 50%;
+  padding-top: 3vh;
+  padding-bottom: 5vh;
+  width: 15%;
+}
+
+#halfPic {
+  width: 100%;
+  height:100%;
+}
+
+#circlePic {
+  border-radius: 50%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width: 35%;
+}
+
+.navHead {
+  height:10%;
+}
+
+.navbar-brand{
+  font-size: 30pt;
+}
+
+.nav-item{
+  font-size: 16pt;
+}
+
+.col {
+  text-align: center;
+}
+
+.card-header h1 {
+  font-size: 28px;
+}
+
+.card-body {
+  font-size: 16px;
+}
