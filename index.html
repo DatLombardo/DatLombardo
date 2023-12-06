@@ -3,7 +3,7 @@
 <head>
   <title>DatLombardo</title>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/text.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -17,9 +17,8 @@
     .jumbotron {
       position: relative;
       text-align: center;
-      background-color: rgba(255, 255, 255, 0.7); /* Adjust as needed */
+      background-color: rgba(255, 255, 255, 0.9);
       padding: 20px;
-      margin-top: -30px; /* Adjust to accommodate navbar */
     }
     .blockquote {
       margin-top: 20px;
@@ -28,34 +27,32 @@
 </head>
 
 <body>
-  <div class="navHead">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="index.html">Michael Lombardo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="vitae.html">Curriculum Vitae</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="publications.html">Publications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="MScThesis.html">M.Sc Thesis</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html">Michael Lombardo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="vitae.html">Curriculum Vitae</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="publications.html">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="MScThesis.html">M.Sc Thesis</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-  <div>
+  <div class="container">
     <video id="videoBG" poster="assets/backgroundSplash.png" autoplay muted loop>
-      <source src="assets/backgroundSplash.mp4" class="img-responsive" type="video/mp4">
+      <source src="assets/backgroundSplash.mp4" type="video/mp4">
     </video>
     <div class="jumbotron">
       <h1 class="display-4">Welcome!</h1>
@@ -66,7 +63,7 @@
     </div>
     <blockquote class="blockquote text-center">
       <p class="mb-0">The greatest adventure is what lies ahead.</p>
-      <p class="mb-0">- J.R.R Tolkien </p>
+      <p class="mb-0">- J.R.R Tolkien</p>
     </blockquote>
   </div>
 
