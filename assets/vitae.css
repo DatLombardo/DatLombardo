@@ -24,12 +24,14 @@ overflow: auto;
 
 #vitaeIndent {
   padding-left: 4em
+  font-size: 16px;
 }
 
 .card-text{
   display:block;
   width: inherit;
   word-wrap: break-word;
+  font-size: 16px;
 }
 
 .navHead {
