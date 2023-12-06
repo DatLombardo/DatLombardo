@@ -37,11 +37,10 @@ body {
 }
 
 .container {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .jumbotron {
@@ -60,13 +59,4 @@ body {
   margin-bottom: 20px;
   font-size: 24px;
   color: #fff;
-}
-
-.page-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px 0;
 }
