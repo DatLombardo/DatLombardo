@@ -23,8 +23,8 @@ overflow: auto;
 }
 
 #vitaeIndent {
-  padding-left: 4em
-  font-size: 16px;
+  padding-left: 4em;
+  font-size: 14px;
 }
 
 .card-text{
@@ -33,6 +33,7 @@ overflow: auto;
   word-wrap: break-word;
   font-size: 16px;
 }
+
 
 .navHead {
   height:10%;
