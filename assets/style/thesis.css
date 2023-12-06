@@ -28,6 +28,10 @@ overflow: auto;
   padding-left: 4em
 }
 
+figcaption {
+  font-size: 14px;
+}
+
 .card-text{
   display:block;
   width: inherit;
