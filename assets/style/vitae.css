@@ -4,14 +4,14 @@ overflow: auto;
 
 #vitaeMaterial {
   text-align: left;
-  transform: translate(0%, 0%);
-  width: inherit;
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 #vitaeCard {
   text-align: left;
-  width: inherit;
-  transform: translate(5%, 0%);
+  max-width: 980px;
+  margin: 0 auto 1rem;
 }
 
 #vitaeTitle {
@@ -19,7 +19,7 @@ overflow: auto;
 }
 
 #vitaePoint {
-  padding-left: 2em
+  padding-left: 2em;
 }
 
 #vitaeIndent {
@@ -29,7 +29,6 @@ overflow: auto;
 
 .card-text{
   display:block;
-  width: inherit;
   word-wrap: break-word;
   font-size: 16px;
 }
@@ -44,4 +43,11 @@ overflow: auto;
 
 .nav-item{
   font-size: 16pt;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand { font-size: 22px; }
+  .nav-item { font-size: 14px; }
+  #vitaeTitle { font-size: 1.5rem; }
+  #vitaePoint, #vitaeIndent { padding-left: 1.5em; }
 }

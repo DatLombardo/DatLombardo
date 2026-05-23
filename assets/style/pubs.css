@@ -4,17 +4,20 @@ overflow: auto;
 /*
 Publications
  */
-.img {
+.slideshow-container img,
+.img-responsive {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50vw;
-  height:50%;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
+  width: 100%;
   position: relative;
   margin: auto;
 }
@@ -22,10 +25,12 @@ Publications
 /* Caption text */
 .slideText {
   color: #d9230f;
-  font-size: 25px;
+  font-size: clamp(1rem, 2vw, 1.25rem);
   padding: 8px 12px;
   position: absolute;
   bottom: 0px;
+  left: 0;
+  right: 0;
   text-align: center;
   background-color: #fff;
 }
@@ -70,14 +75,16 @@ Publications
 }
 
 #posterTitle{
-  width:50%;
+  width: 100%;
+  max-width: 980px;
   text-align: center;
-  transform: translate(50%, 0%);
+  margin: 0 auto;
 }
 .card .card-body {
-  width:50%;
+  width: 100%;
+  max-width: 980px;
   text-align: center;
-  transform: translate(50%, 0%);
+  margin: 0 auto;
 }
 
 .card-text {
@@ -85,6 +92,12 @@ Publications
 }
 .card-link {
   font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand { font-size: 22px; }
+  .nav-item { font-size: 14px; }
+  .slideText { font-size: 1rem; }
 }
 
 .navHead {

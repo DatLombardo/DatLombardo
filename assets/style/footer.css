@@ -8,35 +8,40 @@
 
 
 ul.social-network {
-	list-style: none;
-	display: inline;
-  float:right;
-	margin-left:0 !important;
-	padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
 }
 ul.social-network li {
-	display: inline;
-	margin: 0 5px;
+  display: inline-block;
 }
 
 .social-network a.icoFacebook:hover {
-	background-color:#3B5998;
+  background-color:#3B5998;
 }
 .social-network a.icoTwitter:hover {
-	background-color:#33ccff;
+  background-color:#33ccff;
 }
 .social-network a.icoLinkedin:hover {
-	background-color:#007bb7;
+  background-color:#007bb7;
 }
 .social-network a.icoGithub:hover {
-	background-color:#000000;
+  background-color:#000000;
 }
 .social-network a.icoInstagram:hover {
-	background-color:#833AB4;
+  background-color:#833AB4;
 }
 
-.social-network a.icoInstagram:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i, .social-network a.icoGithub:hover i, .social-network a.icoLinkedin:hover i, {
-	color:#fff;
+.social-network a.icoInstagram:hover i,
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGithub:hover i,
+.social-network a.icoLinkedin:hover i {
+  color:#fff;
 }
 
 a.socialIcon:hover, .socialHoverClass {

@@ -4,16 +4,16 @@ overflow: auto;
 
 #thesisMaterial {
   text-align: left;
-  transform: translate(0%, 0%);
-  width: inherit;
+  width: auto;
+  max-width: 980px;
+  margin: 0 auto;
   font-size: 20px;
 }
 
 #thesisCard {
-  max-width: 90%;
+  max-width: 980px;
   text-align: left;
-  width: inherit;
-  transform: translate(5%, 0%);
+  margin: 0 auto 1rem;
 }
 
 #thesisTitle {
@@ -21,22 +21,36 @@ overflow: auto;
 }
 
 #thesisPoint {
-  padding-left: 2em
+  padding-left: 2em;
 }
 
 #thesisIndent {
-  padding-left: 4em
+  padding-left: 4em;
 }
 
 figcaption {
   font-size: 14px;
 }
 
+.figure img,
+.img-responsive {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
 .card-text{
   display:block;
-  width: inherit;
   word-wrap: break-word;
   font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand { font-size: 22px; }
+  .nav-item { font-size: 14px; }
+  #thesisTitle { font-size: 1.8rem; }
 }
 
 .navHead {
