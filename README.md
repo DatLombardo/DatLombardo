@@ -22,7 +22,7 @@ I take AI from an idea to a product running in production, and own every step in
 - **Live in the field:** monitor deployed models, close the loop with new data, and keep improving. At TerraSense that meant drone and sensor systems running ISR defense technology, with synthetic aperture radar research from raw data to mission management.
 - **Teams:** Scrum master and mentor, leading Scrum and Nexus teams from planning to release.
 
-Background: M.Sc. Computer Science (Ontario Tech, 4.0 GPA), thesis *Parsing Genetic Models*. Former sessional instructor: three CS courses and 350+ students.
+Background: M.Sc. Computer Science (Ontario Tech, 4.0 GPA), thesis *Parsing Genetic Models*. Former sessional lecturer: three CS courses and 350+ students.
 
 ## Open source
 
