@@ -758,15 +758,6 @@ main.page {
   border-radius: 12px;
 }
 .cv-logo-wide { width: 6.5rem; height: 3.4rem; padding: 0.3rem 0.5rem; }
-.cv-logo-mono {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 800;
-  font-size: 1.1rem;
-  letter-spacing: -0.02em;
-  color: var(--accent-2);
-}
 @media (max-width: 44rem) {
   .cv-side { flex-direction: row-reverse; justify-content: space-between; align-items: center; width: 100%; }
 }
@@ -834,3 +825,6 @@ main.page {
 
 /* dark-on-transparent logos (Notre Dame): white tile so they read on the dark theme */
 .cv-logo-light { width: 8.5rem; height: 3.4rem; padding: 0.35rem 0.55rem; background: #fff; border-color: transparent; }
+
+/* full-bleed square badge (Explorer Robotics) */
+.cv-logo-badge { padding: 0.15rem; }
