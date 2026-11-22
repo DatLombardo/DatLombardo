@@ -48,6 +48,7 @@ Background: M.Sc. Computer Science (Ontario Tech, 4.0 GPA), thesis *Parsing Gene
 | [lombo-vault](https://github.com/Lombo-Forge/lombo-vault) | Encrypted config backups with a restore drill |
 | [lombo-farewell](https://github.com/Lombo-Forge/lombo-farewell) | Leaving soon collection for titles scheduled for deletion |
 | [lombo-visa](https://github.com/Lombo-Forge/lombo-visa) | Blocks new sign-ins from abroad, with travel windows |
+| [jellyfin-plugin-lomboshelf](https://github.com/Lombo-Forge/jellyfin-plugin-lomboshelf) | Streaming-style Home shelf, genre rows and theme for Jellyfin |
 
 More, with language breakdowns, on the [Development page](https://datlombardo.ca/development.html).
 
