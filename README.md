@@ -16,7 +16,8 @@
 
 - Build multimodal AI: computer vision, vision-language models, LLMs and diffusion models (PyTorch Lightning, HuggingFace, vLLM).
 - Run the MLOps around it: datasets, annotation, training, evaluation, deployment, MLflow tracking, Docker, Kubernetes and AWS.
-- Previously ML Engineer at TerraSense Analytics: synthetic data with NVIDIA Omniverse and synthetic aperture radar.
+- Previously ML Engineer at TerraSense Analytics (3 years): ISR defense technology, synthetic data with NVIDIA Omniverse and synthetic aperture radar, plus Scrum master of a product team.
+- Comfortable leading Scrum and Nexus teams, and mentoring junior engineers.
 - M.Sc. Computer Science (Ontario Tech, 4.0 GPA). Thesis: *Parsing Genetic Models*, computer vision for biological diagrams.
 - Former sessional instructor: three CS courses and 350+ students.
 
@@ -61,6 +62,10 @@ More, with language breakdowns, on the [Development page](https://datlombardo.ca
 ## About this repo
 
 This repository is my [personal website](https://datlombardo.ca): plain HTML and CSS, no build step. It has my CV, publications, M.Sc. thesis and life story.
+
+> "The greatest adventure is what lies ahead." J.R.R. Tolkien
+
+Life is short, and I am fond of food.
 
 ## Support
 
