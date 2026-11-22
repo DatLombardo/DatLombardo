@@ -67,6 +67,11 @@ More, with language breakdowns, on the [Development page](https://datlombardo.ca
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=white)
 ![NVIDIA Omniverse](https://img.shields.io/badge/NVIDIA_Omniverse-76B900?logo=nvidia&logoColor=white)
 
+**Agentic AI**<br>
+![Claude](https://img.shields.io/badge/Claude-D97757?logo=claude&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-412991?logo=openai&logoColor=white)
+![Grok](https://img.shields.io/badge/Grok-000000?logo=x&logoColor=white)
+
 **MLOps and orchestration**<br>
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)
 ![HashiCorp Nomad](https://img.shields.io/badge/HashiCorp_Nomad-00CA8E?logo=nomad&logoColor=black)
