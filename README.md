@@ -53,14 +53,29 @@ More, with language breakdowns, on the [Development page](https://datlombardo.ca
 
 ## Tech
 
+**ML and AI**<br>
 ![Python](https://img.shields.io/badge/Python-3572A5?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![PyTorch Lightning](https://img.shields.io/badge/PyTorch_Lightning-792EE5?logo=pytorch&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?logo=huggingface&logoColor=black)
+![vLLM](https://img.shields.io/badge/vLLM-30A2FF)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=white)
+![NVIDIA Omniverse](https://img.shields.io/badge/NVIDIA_Omniverse-76B900?logo=nvidia&logoColor=white)
+
+**MLOps and orchestration**<br>
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)
+![HashiCorp Nomad](https://img.shields.io/badge/HashiCorp_Nomad-00CA8E?logo=nomad&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+
+**Cloud and delivery**<br>
 ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)
-![NVIDIA](https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=white)
+![CodeArtifact](https://img.shields.io/badge/CodeArtifact-232F3E?logo=amazonwebservices&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![REST](https://img.shields.io/badge/REST_APIs-005571)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?logo=graphql&logoColor=white)
 
 ## Support
 
