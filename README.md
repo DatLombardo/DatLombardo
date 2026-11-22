@@ -59,6 +59,10 @@ More, with language breakdowns, on the [Development page](https://datlombardo.ca
 ![PyTorch Lightning](https://img.shields.io/badge/PyTorch_Lightning-792EE5?logo=pytorch&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?logo=huggingface&logoColor=black)
 ![vLLM](https://img.shields.io/badge/vLLM-30A2FF)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=white)
 ![NVIDIA Omniverse](https://img.shields.io/badge/NVIDIA_Omniverse-76B900?logo=nvidia&logoColor=white)
@@ -66,6 +70,7 @@ More, with language breakdowns, on the [Development page](https://datlombardo.ca
 **MLOps and orchestration**<br>
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)
 ![HashiCorp Nomad](https://img.shields.io/badge/HashiCorp_Nomad-00CA8E?logo=nomad&logoColor=black)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 
@@ -73,7 +78,10 @@ More, with language breakdowns, on the [Development page](https://datlombardo.ca
 ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white)
 ![CodeArtifact](https://img.shields.io/badge/CodeArtifact-232F3E?logo=amazonwebservices&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?logo=githubactions&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![REST](https://img.shields.io/badge/REST_APIs-005571)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?logo=graphql&logoColor=white)
 
