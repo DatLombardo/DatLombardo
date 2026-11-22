@@ -742,3 +742,92 @@ main.page {
 @media (prefers-reduced-motion: reduce) {
   .btn, .tile, .fact, .social-links a, .nav-links a, .cv-entry, .pub-entry, .gallery figure { transition: none; }
 }
+
+/* --------------------------------------------------------------------------
+   CV logos: employer / school mark above the dates
+   -------------------------------------------------------------------------- */
+
+.cv-side { display: flex; flex-direction: column; align-items: flex-start; gap: 0.7rem; }
+.cv-logo {
+  width: 3.4rem;
+  height: 3.4rem;
+  padding: 0.5rem;
+  object-fit: contain;
+  background: var(--bg-2);
+  border: 1px solid var(--border-strong);
+  border-radius: 12px;
+}
+.cv-logo-wide { width: 6.5rem; height: 3.4rem; padding: 0.3rem 0.5rem; }
+.cv-logo-mono {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.1rem;
+  letter-spacing: -0.02em;
+  color: var(--accent-2);
+}
+@media (max-width: 44rem) {
+  .cv-side { flex-direction: row-reverse; justify-content: space-between; align-items: center; width: 100%; }
+}
+
+/* --------------------------------------------------------------------------
+   Development page: open-source repo cards with language bars
+   -------------------------------------------------------------------------- */
+
+.org-head { display: flex; align-items: center; gap: 1rem; margin: 4rem 0 0.5rem; }
+.org-head:first-of-type { margin-top: 2rem; }
+.org-head img { width: 3.2rem; height: 3.2rem; border-radius: 12px; border: 1px solid var(--border-strong); background: var(--bg-2); padding: 0.4rem; }
+.org-head h2 { margin: 0; font-size: 1.6rem; }
+.org-blurb { color: var(--text-muted); max-width: var(--maxw-prose); margin: 0 0 1.5rem; }
+
+.repo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); gap: 1rem; }
+
+.repo-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 1.35rem 1.4rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+.repo-card:hover { transform: translateY(-3px); border-color: var(--accent); box-shadow: var(--accent-glow); }
+.repo-card h3 { margin: 0; font-size: 1.15rem; display: flex; justify-content: space-between; gap: 0.5rem; }
+.repo-card h3 a { color: var(--text); }
+.repo-card h3 a:hover { text-decoration: none; }
+.repo-card h3 a::after { content: ""; position: absolute; inset: 0; border-radius: var(--radius); } /* whole card clickable */
+.repo-card h3::after { content: "\2197"; color: var(--accent-2); }
+.repo-links { display: flex; flex-wrap: wrap; gap: 0.5rem; position: relative; z-index: 1; }
+.repo-links a { padding: 0.2rem 0.75rem; border: 1px solid var(--border-strong); border-radius: 999px; font-size: 0.82rem; font-weight: 650; }
+.repo-links a:hover { border-color: var(--accent); background: var(--accent-soft); text-decoration: none; }
+.repo-card p { margin: 0; color: var(--text-muted); font-size: 0.97rem; flex: 1; }
+
+.lang-bar { display: flex; height: 0.5rem; border-radius: 999px; overflow: hidden; background: var(--bg-2); margin-top: 0.4rem; }
+.lang-bar span { display: block; height: 100%; }
+.lang-list { display: flex; flex-wrap: wrap; gap: 0.25rem 0.9rem; margin: 0; padding: 0; list-style: none; font-size: 0.82rem; color: var(--text-muted); }
+.lang-list li { display: inline-flex; align-items: center; gap: 0.35rem; }
+.lang-list i { width: 0.6rem; height: 0.6rem; border-radius: 50%; display: inline-block; }
+.lang-list b { color: var(--text); font-weight: 650; }
+
+/* odd tile count: let the last tile span both columns */
+@media (min-width: 44.01rem) { .tile-grid .tile:last-child:nth-child(odd) { grid-column: 1 / -1; } }
+
+/* Ko-fi support strip on the Development page */
+.support {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem 2rem;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  padding: 1.6rem 1.75rem;
+  background: linear-gradient(150deg, var(--surface-2), var(--surface));
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+}
+.support h2 { font-size: 1.3rem; margin: 0 0 0.25rem; }
+.support p { margin: 0; color: var(--text-muted); max-width: 34rem; }
