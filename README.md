@@ -6,7 +6,6 @@
 <p align="center">
   <a href="https://datlombardo.ca"><img alt="Website" src="https://img.shields.io/badge/Website-datlombardo.ca-FF6A1A?logoColor=white"></a>
   <a href="https://www.linkedin.com/in/michael-lombardo-78650a107/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?logo=linkedin&logoColor=white"></a>
-  <a href="https://huggingface.co/precisionaiinc"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging_Face-Precision_AI-FFD21E?logo=huggingface&logoColor=black"></a>
   <a href="https://ko-fi.com/datlombardo"><img alt="Support on Ko-fi" src="https://img.shields.io/badge/Ko--fi-support-FF5E5B?logo=ko-fi&logoColor=white"></a>
 </p>
 
