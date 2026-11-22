@@ -14,12 +14,18 @@
 
 ## What I do
 
-- Build multimodal AI: computer vision, vision-language models, LLMs and diffusion models (PyTorch Lightning, HuggingFace, vLLM).
-- Run the MLOps around it: datasets, annotation, training, evaluation, deployment, MLflow tracking, Docker, Kubernetes and AWS.
-- Previously ML Engineer at TerraSense Analytics (3 years): ISR defense technology, synthetic data with NVIDIA Omniverse and synthetic aperture radar, plus Scrum master of a product team.
-- Comfortable leading Scrum and Nexus teams, and mentoring junior engineers.
-- M.Sc. Computer Science (Ontario Tech, 4.0 GPA). Thesis: *Parsing Genetic Models*, computer vision for biological diagrams.
-- Former sessional instructor: three CS courses and 350+ students.
+I take AI from an idea to a product running in production, and own every step in between:
+
+**Vision → data → model → production → monitoring**
+
+- **Vision and research:** read the papers, prototype, and decide what is worth building (computer vision, vision-language models, LLMs, diffusion, agentic RAG systems).
+- **Data:** design datasets, run large-scale annotation, and generate synthetic data (NVIDIA Omniverse) when real data is scarce.
+- **Models:** train, fine-tune and evaluate with PyTorch Lightning, HuggingFace and vLLM, then shrink them with quantization, pruning and distillation for real-time and edge use.
+- **Production:** MLflow-tracked training, CI/CD, Docker, Kubernetes and AWS, with REST and GraphQL APIs that serve models inside larger systems.
+- **Live in the field:** monitor deployed models, close the loop with new data, and keep improving. At TerraSense that meant drone and sensor systems running ISR defense technology, with synthetic aperture radar research from raw data to mission management.
+- **Teams:** Scrum master and mentor, leading Scrum and Nexus teams from planning to release.
+
+Background: M.Sc. Computer Science (Ontario Tech, 4.0 GPA), thesis *Parsing Genetic Models*. Former sessional instructor: three CS courses and 350+ students.
 
 ## Open source
 
