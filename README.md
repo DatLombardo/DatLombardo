@@ -59,14 +59,6 @@ More, with language breakdowns, on the [Development page](https://datlombardo.ca
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)
 ![NVIDIA](https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=white)
 
-## About this repo
-
-This repository is my [personal website](https://datlombardo.ca): plain HTML and CSS, no build step. It has my CV, publications, M.Sc. thesis and life story.
-
-> "The greatest adventure is what lies ahead." J.R.R. Tolkien
-
-Life is short, and I am fond of food.
-
 ## Support
 
 If something I built saved you time, you can [buy me a coffee on Ko-fi](https://ko-fi.com/datlombardo).
