@@ -1,4 +1,4 @@
-name: Refresh language bars
+name: Refresh language bars and sitemap
 
 # No third-party actions: this repo only allows local ones, so checkout is plain git.
 
@@ -17,16 +17,19 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Check out main
-        run: git clone --depth 1 "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" site
+        run: git clone "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" site
       - name: Update development.html
         working-directory: site
         run: python3 scripts/update_languages.py
+      - name: Update sitemap dates
+        working-directory: site
+        run: python3 scripts/update_sitemap.py
       - name: Commit if changed
         working-directory: site
         run: |
           if ! git diff --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -am "Refresh language bars"
+            git commit -am "Refresh language bars and sitemap dates"
             git push
           fi
