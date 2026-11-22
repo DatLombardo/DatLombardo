@@ -1,6 +1,6 @@
 <p align="center">
   <b>Senior MLOps Engineer at <a href="https://www.precision.ai/">Precision AI</a></b> · Calgary, Alberta<br>
-  I turn research into production AI, and I love teaching it along the way.
+  I take AI from vision to a live product in production, and I love teaching it along the way.
 </p>
 
 <p align="center">
