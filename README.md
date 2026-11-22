@@ -1,5 +1,3 @@
-<h1 align="center">Hi, I'm Michael Lombardo</h1>
-
 <p align="center">
   <b>Senior MLOps Engineer at <a href="https://www.precision.ai/">Precision AI</a></b> · Calgary, Alberta<br>
   I turn research into production AI, and I love teaching it along the way.
